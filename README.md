@@ -8,7 +8,7 @@ Ilustration what bag of words is shown below:
 ## My repository
 **Data Augmentation:**  
 We didn't have lot of data, so i decided to use data augmentation. From around 60 photos i made around 440 more and i could train my model with around 500 photos. Below you can see parameters i've used for augmentation:  
-
+![Screenshot](photos/augmentation.PNG)  
 **Detector/Descriptor, Classificator and Vocab model:**
 Main code you can find in *notebook_project.py*. I've used various of detector/descriptor e.g cv2.AKAZE_create(), cv2.ORB_create(), cv2.xfeatures2d.SIFT_create().
 The best results i could get by using SIFT detector/descriptor. For classificator i've used svm.SVC(), and it's parameters choosed by applying GridSearch. Vocab model was typical KMeans algorithm with 150 clusters.
