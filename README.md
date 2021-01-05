@@ -15,7 +15,9 @@ The best results i could get by using SIFT detector/descriptor. For classificato
 
 **Results:**
 With vocab_mode.p and clf.p, the best result i got i shown below:  
+```
 > Results: 0.925   
+```
  Remember that you can check what parameters my vocb_model.p and clf.p had with command:  
  ```
  with Path('clf.p').open('rb') as classifier_file:  # Don't change the path here
